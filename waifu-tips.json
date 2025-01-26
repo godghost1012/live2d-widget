@@ -1,4 +1,129 @@
 {
+  "zh-TW": { // 中文繁體
+    "mouseover": [{
+      "selector": "#live2d",
+      "text": ["幹嘛呢你，快把手拿開～～", "鼠…滑鼠放錯地方了！", "你要幹嘛呀？", "喵喵喵？", "怕怕(ノ≧∇≦)ノ", "非禮呀！救命！", "這樣的話，只能使用武力了！", "我要生氣了喔", "不要動手動腳的！", "真…真的是不知羞恥！", "變態！"]
+    }, {
+      "selector": "#waifu-tool-hitokoto",
+      "text": ["猜猜我要說些什麼？", "我從青蛙王子那裡聽到了不少人生經驗。"]
+    }, {
+      "selector": "#waifu-tool-asteroids",
+      "text": ["要不要來玩飛機大戰？", "這個按鈕上寫著「不要點擊」。", "怎麼，你想來和我玩個遊戲？", "聽說這樣可以蹦迪！"]
+    }, {
+      "selector": "#waifu-tool-switch-model",
+      "text": ["你是不是不愛人家了呀，嗚嗚嗚～", "要見見我的姊姊嘛？", "想要看我妹妹嘛？", "要切換看板娘嗎？"]
+    }, {
+      "selector": "#waifu-tool-switch-texture",
+      "text": ["喜歡換裝 PLAY 嗎？", "這次要扮演什麼呢？", "變裝！", "讓我們看看接下來會發生什麼！"]
+    }, {
+      "selector": "#waifu-tool-photo",
+      "text": ["你要給我拍照呀？一二三～茄子～", "要不，我們來合影吧！", "保持微笑就好了～"]
+    }, {
+      "selector": "#waifu-tool-info",
+      "text": ["想要知道更多關於我的事麼？", "這裡記錄著我搬家的歷史呢。", "你想深入了解我什麼呢？"]
+    }, {
+      "selector": "#waifu-tool-quit",
+      "text": ["到了要說再見的時候了嗎？", "嗚嗚 QAQ 後會有期……", "不要拋棄我呀……", "我們，還能再見面嗎……", "哼，你會後悔的！"]
+    }, {
+      "selector": ".menu-item-home a",
+      "text": ["點擊前往首頁，想回到上一頁可以使用瀏覽器的後退功能喔。", "點它就可以回到首頁啦！", "回首頁看看吧。"]
+    }, {
+      "selector": ".menu-item-about a",
+      "text": ["你想知道我家主人是誰嗎？", "這裡有一些關於我家主人的秘密喔，要不要看看呢？", "發現主人出沒地點！"]
+    }, {
+      "selector": ".menu-item-tags a",
+      "text": ["點擊就可以看文章的標籤啦！", "點擊來查看所有標籤喔。"]
+    }, {
+      "selector": ".menu-item-categories a",
+      "text": ["文章都分類好啦～", "點擊來查看文章分類喔。"]
+    }, {
+      "selector": ".menu-item-archives a",
+      "text": ["翻頁比較麻煩嗎，那就來看看文章歸檔吧。", "文章目錄都整理在這裡啦！"]
+    }, {
+      "selector": ".menu-item-friends a",
+      "text": ["這是我的朋友們喔ヾ(◍°∇°◍)ﾉﾞ", "要去大佬們的家看看嗎？", "要去拜訪一下我的朋友們嗎？"]
+    }, {
+      "selector": ".menu-item-search a",
+      "text": ["找不到想看的內容？搜尋看看吧！", "在找什麼東西呢，需要幫忙嗎？"]
+    }, {
+      "selector": ".menu-item a",
+      "text": ["快看看這裡都有什麼呢？"]
+    }, {
+      "selector": ".site-author",
+      "text": ["我家主人好看嗎？", "這是我家主人(*´∇｀*)"]
+    }, {
+      "selector": ".site-state",
+      "text": ["這是文章的統計資訊～", "要不要點進去看看？"]
+    }, {
+      "selector": ".feed-link a",
+      "text": ["這裡可以使用 RSS 訂閱呢！", "利用 feed 訂閱器，就能快速知道部落格有沒有更新了呢。"]
+    }, {
+      "selector": ".cc-opacity, .post-copyright-author",
+      "text": ["要記得規範轉載喔。", "所有文章均採用 CC BY-NC-SA 4.0 許可協議～", "轉載前要先注意下文章的版權協議呢。"]
+    }, {
+      "selector": ".links-of-author",
+      "text": ["這裡是主人的常駐地址喔。", "這裡有主人的聯絡方式！"]
+    }, {
+      "selector": ".followme",
+      "text": ["手機掃一下就能繼續看，很方便呢～", "掃一掃，打開新世界的大門！"]
+    }, {
+      "selector": ".fancybox img, img.medium-zoom-image",
+      "text": ["點擊圖片可以放大呢！"]
+    }, {
+      "selector": ".copy-btn",
+      "text": ["程式碼可以直接點擊複製喲。"]
+    }, {
+      "selector": ".highlight .table-container, .gist",
+      "text": ["GitHub！我是新手！", "PHP 是最好的語言！"]
+    }, {
+      "selector": "a[href^='mailto']",
+      "text": ["郵件我會及時回覆的！", "點擊就可以傳送郵件啦～"]
+    }, {
+      "selector": "a[href^='/tags/']",
+      "text": ["要去看看 <span>{text}</span> 標籤麼？", "點它可以查看此標籤下的所有文章喲！"]
+    }, {
+      "selector": "a[href^='/categories/']",
+      "text": ["要去看看 <span>{text}</span> 分類麼？", "點它可以查看此分類下的所有文章喲！"]
+    }, {
+      "selector": ".post-title-link",
+      "text": ["要看看 <span>{text}</span> 這篇文章嗎？"]
+    }, {
+      "selector": "a[rel='contents']",
+      "text": ["點擊來閱讀全文喔。"]
+    }, {
+      "selector": "a[itemprop='discussionUrl']",
+      "text": ["要去看看評論嗎？"]
+    }, {
+      "selector": ".beian a",
+      "text": ["我也是有戶口的人喔。", "我的主人可是遵紀守法的好主人。"]
+    }, {
+      "selector": ".container a[href^='http'], .nav-link .nav-text",
+      "text": ["要去看看 <span>{text}</span> 麼？", "去 <span>{text}</span> 逛逛吧。", "到 <span>{text}</span> 看看吧。"]
+    }, {
+      "selector": ".back-to-top",
+      "text": ["點它就可以回到頂部啦！", "又回到最初的起點～", "要回到開始的地方麼？"]
+    }, {
+      "selector": ".reward-container",
+      "text": ["我是不是棒棒噠～快給我點讚吧！", "要打賞我嘛？好期待啊～", "主人最近在吃土呢，很辛苦的樣子，給他一些錢錢吧～"]
+    }, {
+      "selector": "#wechat",
+      "text": ["這是我的微信二維碼～"]
+    }, {
+      "selector": "#alipay",
+      "text": ["這是我的支付寶喔！"]
+    }, {
+      "selector": "#bitcoin",
+      "text": ["這是我的比特幣帳號！"]
+    }, {
+      "selector": "#needsharebutton-postbottom .btn",
+      "text": ["好東西要讓更多人知道才行喔。", "覺得文章有幫助的話，可以分享給更多需要的朋友呢。"]
+    }, {
+      "selector": ".need-share-button_weibo",
+      "text": ["微博？來分享一波喵！"]
+    }, {
+      "selector": ".need-share-button_wechat",
+      "text": ["分享到微信吧！"]
+  "zh-CN": { // 中文簡体
 	"mouseover": [{
 		"selector": "#live2d",
 		"text": ["干嘛呢你，快把手拿开～～", "鼠…鼠标放错地方了！", "你要干嘛呀？", "喵喵喵？", "怕怕(ノ≧∇≦)ノ", "非礼呀！救命！", "这样的话，只能使用武力了！", "我要生气了哦", "不要动手动脚的！", "真…真的是不知羞耻！", "Hentai！"]
